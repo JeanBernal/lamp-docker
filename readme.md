@@ -394,12 +394,6 @@ _Finalmente podemos comprobar que nuestro proyecto esté funcionando correctamen
 http://test.demo/
 ```
 
-## Autores ✒️
-
-* **Jeaneil Bernal Sierra**
-* **Cristian Narvaez Useche** 
-* **Leonardo Seña Pimentel** 
-
 
 
 
