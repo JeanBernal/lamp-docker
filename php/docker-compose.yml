@@ -1,0 +1,21 @@
+version: '3.3'
+
+services:
+ php-fpm:
+  build:
+   context: ./php-fpm
+  container_name: php-dev
+  restart: always
+  ports:
+   - ${PORT}:${PORT}
+  volumes:
+   - ../public_html:/var/www/html:rw
+  networks:
+   - php-fpm
+   - db
+networks:
+ php-fpm:
+ db:
+  external:
+   name: databases_databases 
+
